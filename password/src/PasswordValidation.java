@@ -14,6 +14,7 @@ public class PasswordValidation {
             passwordInput = sc.nextLine();
 
             if(passwordInput.length() < 8) {
+                System.out.println("A senha deve conter ao menos 8 caracteres");
                 continue;
             }
 
